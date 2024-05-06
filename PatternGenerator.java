@@ -55,9 +55,6 @@ public class PatternGenerator {
             } else {
                 generatePattern(n);
             }
-        } catch (NumberFormatException e) {
-            System.out.println("Error: Invalid input. Please enter a positive integer.");
-        }
 
         System.out.println("\nDone.");
         scanner.close(); // Close the scanner
