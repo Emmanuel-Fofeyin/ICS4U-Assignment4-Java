@@ -55,7 +55,7 @@ public class PatternGenerator {
             } else {
                 generatePattern(n);
             }
-
+            
         System.out.println("\nDone.");
         scanner.close(); // Close the scanner
     }
